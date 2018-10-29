@@ -1,33 +1,34 @@
 {
-  "name": "smartlog-library",
-  "version": "1.1.26",
-  "description": "smartlog library",
+  "name": "stx-library",
+  "version": "1.0.8",
+  "description": "stx library",
   "main": "index.js",
   "scripts": {
     "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danghung-dev/smartlog-library.git"
+    "url": "git+https://github.com/anvuong/smartlog-library.git"
   },
   "keywords": [
     "kafka",
     "node",
-    "messaging"
+    "messaging",
+    "logger"
   ],
-  "author": "Dang Viet Hung",
+  "author": "Vuong Hong An",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/danghung-dev/smartlog-library/issues"
+    "url": "https://github.com/anvuong/smartlog-library/issues"
   },
-  "homepage": "https://github.com/danghung-dev/smartlog-library#readme",
+  "homepage": "https://github.com/anvuong/smartlog-library#readme",
   "dependencies": {
     "@slack/client": "^4.11.0",
     "aws-sdk": "^2.423.0",
     "fluent-logger": "^3.0.0",
     "joi": "^13.3.0",
     "jsonwebtoken": "^8.2.1",
-    "kafka-node": "^2.6.1",
+    "kafka-node": "^3.0.1",
     "winston": "^3.2.1",
     "winston-loggly-bulk": "^3.0.1"
   },
